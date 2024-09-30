@@ -7,9 +7,27 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .weather-app {
-  background-color: #3f3f3f;
-  max-width: 600px;
+  background-color: #3f3f3f75;
+  max-width: 800px;
   margin: 30px auto;
   padding: 30px;
   border-radius: 10px;
+  color: white;
+}
+#app-name {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  font-style: italic;
+  max-width: 100%;
+  padding-bottom: -50px;
+  margin: 0%;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+}
+a {
+  color: rgb(138, 255, 245); /* Set the link color */
 }
