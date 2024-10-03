@@ -1,14 +1,16 @@
 body {
-  background: linear-gradient(
-    112.1deg,
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/146/056/original/alex-machado-80sv993lUKI-unsplash.jpg?1727945196");
+  background-position: center;
+  /* background: linear-gradient(
+    to left,
     rgb(32, 38, 57) 11.4%,
     rgb(63, 76, 119) 70.2%
-  );
+  ); */
   font-family: "Roboto", sans-serif;
 }
 .weather-app {
-  background-color: #3f3f3f75;
-  max-width: 800px;
+  background-color: #3f3f3f95;
+  max-width: 600px;
   margin: 30px auto;
   padding: 30px;
   border-radius: 10px;
@@ -36,12 +38,12 @@ a {
   color: rgb(95, 209, 249);
 }
 .search-form-input {
-  background: rgb(32, 38, 57);
+  background: rgb(255, 255, 255);
   color: white;
   border: none;
   border-radius: 6px;
   width: 80%;
-  padding: 15px;
+  padding: 17px;
   font-size: 18px;
 }
 .search-button {
@@ -56,15 +58,21 @@ a {
   font-size: 18px;
   color: rgb(32, 38, 57);
 }
+
+.day-time {
+  padding-bottom: -20px;
+}
 .weather-app-city {
   font-family: "Roboto", sans-serif;
-  margin-top: 50px;
-  font-size: 36px;
+  font-weight: 500;
+  margin-top: 70px;
+  font-size: 45px;
 }
 .weather-app-data {
   display: flex;
   justify-content: space-between;
-  padding: 0;
+  padding-top: 0px;
+  margin-top: 0;
 }
 .weather-app-details {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -74,14 +82,32 @@ a {
   column-gap: 20px;
   justify-content: center;
 }
+.weather-app-details strong {
+  color: pink;
+}
 li {
   list-style-type: none;
 }
-.weather-app-temperature {
+.weather-app-temperature-container {
+  display: flex;
   margin-right: 50px;
   font-size: 48px;
 }
 
+.weather-app-temperature-icon {
+  font-size: 44px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.weather-app-temperature-value {
+  font-size: 88px;
+  margin-left: 10px;
+}
+
+.weather-app-temperature-unit {
+  margin-top: 15px;
+  font-size: 28px;
+}
 footer {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding-top: 30px;
