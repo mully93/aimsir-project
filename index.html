@@ -24,11 +24,13 @@
         <h1 id="app-name">Aimsir App</h1>
         <h2>What's the weather like?</h2>
     </header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Search for a town or city"
-            required class="search-form-input"
+            required 
+            id="search-form-input"
+            class="search-form-input"
           />
           <input type="submit" value="🔎 Search" class="search-button" />
         </form>
@@ -37,7 +39,7 @@
         <div>
             <p class="day-time">Thursday 15:50</p>
         <div class="weather-app-data">
-          <h1 class="weather-app-city">Limerick</h1>
+          <h1 class="weather-app-city" id="city">Limerick</h1>
           <p class="weather-app-temperature-container"><span class="weather-app-temperature-icon">🌧️ </span><span class="weather-app-temperature-value"> 11</span><span class="weather-app-temperature-unit">°C</span></p>
         </div>
         <div class="weather-app-details">
@@ -59,5 +61,6 @@
         >
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
