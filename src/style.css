@@ -61,6 +61,7 @@ a {
 .day-time {
   padding-bottom: -20px;
   font-weight: 500;
+  font-size: 18px;
 }
 .weather-app-city {
   font-family: "Roboto", sans-serif;
@@ -81,6 +82,7 @@ a {
   column-count: 3;
   column-gap: 20px;
   justify-content: center;
+  font-size: 18px;
 }
 .weather-app-details strong {
   color: pink;
