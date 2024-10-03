@@ -38,15 +38,15 @@
         </header>
       <main>
         <div>
-            <p class="day-time">Thursday 15:50</p>
+            <p class="day-time" id="time"></p>
         <div class="weather-app-data">
           <h1 class="weather-app-city" id="city"></h1>
           <p class="weather-app-temperature-container"><span class="weather-app-temperature-icon">🌧️ </span><span class="weather-app-temperature-value" id="temperature"></span><span class="weather-app-temperature-unit">°C</span></p>
         </div>
         <div class="weather-app-details">
-          <li>Heavy rain</li>
-            <li>Humidity: <strong>66%</strong></li>
-            <li>Wind: <strong>3.13km/h</strong></li>
+          <span id="description"><li></li></span>
+            <li>Humidity: <strong id="humidity"></strong></li>
+            <li>Wind: <strong id="wind-speed"></strong></li>
           </div>
       </main>
       <footer>
