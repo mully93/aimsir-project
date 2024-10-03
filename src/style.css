@@ -94,8 +94,8 @@ li {
 }
 
 .weather-app-temperature-icon {
-  font-size: 44px;
-  margin-top: 25px;
+  width: 80px;
+  margin-top: 20px;
   margin-left: 10px;
 }
 .weather-app-temperature-value {
