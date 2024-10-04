@@ -9,7 +9,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .weather-app {
-  background-color: #3f3f3f95;
+  background-color: #15182095;
   max-width: 600px;
   margin: 30px auto;
   padding: 30px;
@@ -113,25 +113,25 @@ li {
   font-size: 28px;
 }
 
-.weather-forcast {
+.weather-forecast {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.weather-forcast-date {
+.weather-forecast-date {
   text-align: center;
   font-size: 18px;
   line-height: 20px;
   margin-bottom: 10px;
 }
-.weather-forcast-icon {
+.weather-forecast-icon {
   font-size: 48px;
   text-align: center;
 }
 
-.weather-forcast-temperatures {
+.weather-forecast-temperatures {
   text-align: center;
   color: pink;
   margin-top: 10px;
@@ -139,7 +139,7 @@ li {
   justify-content: center;
 }
 
-.weather-forcast-temperature {
+.weather-forecast-temperature {
   padding: 0 10px;
 }
 
